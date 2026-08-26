@@ -1,0 +1,14 @@
+:host {
+  display: grid;
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 320px;
+}
+
+.actions {
+  margin-top: 1rem;
+}
