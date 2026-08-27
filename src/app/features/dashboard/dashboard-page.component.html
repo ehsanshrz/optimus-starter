@@ -1,0 +1,25 @@
+<app-section-title
+  title="Dashboard"
+  subtitle="A quick showcase of common Optimus UI components."
+/>
+
+<p-card header="Starter UI Kit" class="demo-card">
+  <p>
+    Use this page as a baseline for your own components and design system extensions.
+  </p>
+
+  <div class="button-row">
+    <p-button label="Primary action" />
+    <p-button label="Secondary action" severity="secondary" />
+  </div>
+
+  <div class="field">
+    <label for="projectName">Project Name</label>
+    <input
+      id="projectName"
+      type="text"
+      pInputText
+      [(ngModel)]="projectName"
+    />
+  </div>
+</p-card>

@@ -1,0 +1,20 @@
+<app-section-title
+  title="Settings"
+  subtitle="A second feature page wired into the starter routing."
+/>
+
+<p-card header="Workspace Preferences">
+  <div class="field">
+    <label for="workspaceName">Workspace Name</label>
+    <input
+      id="workspaceName"
+      type="text"
+      pInputText
+      [(ngModel)]="workspaceName"
+    />
+  </div>
+
+  <div class="actions">
+    <p-button label="Save changes" />
+  </div>
+</p-card>
